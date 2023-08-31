@@ -63,7 +63,7 @@ while True:
         # drawing.draw_landmarks(frm, res.multi_hand_landmarks[0], hand.HAND_CONNECTIONS)
 
 
-    # cv2.putText(frm, "frame_rate: "+str(int(1/(time.time()-ss))), (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
+    # cv2.putText(frm, "frame_rate: "+str(iSnt(1/(time.time()-ss))), (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
     cv2.imshow("window", frm)
     
     if is_game_over:
